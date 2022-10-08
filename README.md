@@ -1,2 +1,1 @@
-# Oracle-Advanced-PLSQL
-Oracle Advanced PL/SQL
+# Oracle Advanced PL/SQL
