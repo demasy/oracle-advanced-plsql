@@ -1,0 +1,20 @@
+SET DEFINE OFF;
+Prompt drop Type XXDL_FND_USER_OBJ;
+DROP TYPE XXDL_FND_USER_OBJ
+/
+
+Prompt Type XXDL_FND_USER_OBJ;
+--
+-- XXDL_FND_USER_OBJ  (Type) 
+--
+--  Dependencies: 
+--   STANDARD (Package)
+--
+/* Formatted on 11/11/2022 4:18:07 PM (QP5 v5.287) */
+CREATE OR REPLACE TYPE XXDL_FND_USER_OBJ AS OBJECT
+(
+   USER_ID NUMBER,
+   USER_NAME VARCHAR2 (100)
+);
+/
+SHOW ERRORS;
