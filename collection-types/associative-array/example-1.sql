@@ -1,0 +1,16 @@
+/* Formatted on 10/8/2022 3:50:23 PM (QP5 v5.287) */
+DECLARE
+   TYPE ASSOCIATIVE_ARRAY_TYPE IS TABLE OF VARCHAR2 (20)
+      INDEX BY PLS_INTEGER;
+
+   L_NUMBER_LIST   ASSOCIATIVE_ARRAY_TYPE;
+BEGIN
+   L_NUMBER_LIST (0) := 'zero';
+   L_NUMBER_LIST (1) := 'one';
+   L_NUMBER_LIST (2) := 'two';
+   L_NUMBER_LIST (3) := 'three';
+   L_NUMBER_LIST (4) := 'four';
+   L_NUMBER_LIST (9) := 'nine';
+
+   DBMS_OUTPUT.PUT_LINE (L_NUMBER_LIST (1));
+END;
